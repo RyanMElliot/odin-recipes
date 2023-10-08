@@ -8,14 +8,33 @@
     background-color: white;
 }
 
+.recipe-text{
+    padding: 8px;
+    margin:16px;
+}
+
 h1 {
     color: rgb(0,20,100);
     background-color: rgb(200,255,200);
+    padding: 12px;
+    text-align: center;
+}
+
+h2 {
+    margin: 8px auto 16px 128px;
 }
 
 .main-image {
+    display: block;
     height: 300px;
     width: auto;
+    margin: 20px auto;
+}
+
+ul,
+ol{
+    margin: 16px 70px;
+    padding:24px 50px;
 }
 
 ul.ingredients,
@@ -26,4 +45,13 @@ ul.ingredients,
 ol.steps,
 .steps li {
     background-color: rgb(255,230,200);
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color:black;
+    background-color: aquamarine;
 }
